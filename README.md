@@ -8,6 +8,8 @@ OrderedList_inArraySlots.java
 based on [solutionsHolmes/5D_genericTypes/OrderedList_inArraySlots_v2/](https://github.com/stuyvesant-cs/solutionsHolmes/tree/master/5D_genericTypes/OrderedList_inArraySlots_v2)
 as of 2019-04-10 04:48
 
+## recall inverse functions and logarithms
+
 0. What is meant by y = log2x ? Express its meaning in a .
 
   A log function is the inverse function of an exponential function. x is equal to the power that you raise 2 to in order to      get the value y.
