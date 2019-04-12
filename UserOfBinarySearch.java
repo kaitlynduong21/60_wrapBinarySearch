@@ -8,7 +8,7 @@ public class UserOfBinarySearch {
 
     public static void main(String[] commandLine) {
         System.out.println();
-        
+
         /* create a list whose values are easy to
            distinguish from indexes */
         Integer valNotIndex = 111;
@@ -26,11 +26,14 @@ public class UserOfBinarySearch {
         for( int i = 0; i < orderedList.size(); i++) {
             findMe = orderedList.get( i);
             foundAt = orderedList.indexOf( findMe);
-            System.out.println( 
+            System.out.println(
                 "Value " + findMe
               + " was found at index " + foundAt
               + ". That's correct, eh? " + (foundAt == i)
               );
+            System.out.println(
+              "The number of iterations from the most recent invocation of indexOf is "
+              + orderedList.cost());
         }
         System.out.println();
 
