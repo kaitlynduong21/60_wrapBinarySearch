@@ -52,7 +52,7 @@ as of 2019-04-10 04:48
     if (comparison < 0) return indexOf_recursive( findMe, low, pageToCheck -1)
     if (comparison > 0) return indexOf_recursive( findMe, pageToCheck + 1, high)
     
-   No leftover procession or combination.
+   No leftover processing or combination.
     
   
   
