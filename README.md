@@ -13,7 +13,8 @@ as of 2019-04-10 04:48
   A log function is the inverse function of an exponential function. x is equal to the power that you raise 2 to in order to      get the value y.
 
 1. What does its graph look like?
-
+  
+  The graph of log2x is the log of 2^x reflected along the line y = x. It has a vertical asymptote at y = 0 as x can never be negative and it has a horizontal asymptote. The graph is an increasing function but increases at a decreasing rate. As x gets larger, the graph flattens out and the rate of change decreases.
 
 ## recursive solution
 
@@ -21,12 +22,12 @@ as of 2019-04-10 04:48
   Return the index of the first instance of a given value in an ordered list using binary search.
 1. State the recursive abstraction
   
-2. Identify the parts of this solution that correspond to the six parts of a generalized recursive solution.
+2. Identify the parts of this solution that correspond to the six parts of a generalized recomparecursive solution.
 
   Problem: return the index of the first instance of a given value
   
   Recursive Abstraction: 
-    When asked to find the index of a given value, the recursive abstraction can compare the given value to the value on the page that is halfway between the low and high limits.
+    When asked to find the index of a given value, the recursive abstraction can find the given value in a list half the size of the previous list (in the first loop, the original list).
     
   Solutions to the base cases: 
   
