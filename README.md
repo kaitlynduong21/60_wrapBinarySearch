@@ -16,23 +16,26 @@ as of 2019-04-10 04:48
 
 **1. What does its graph look like?**
   
-  The graph of log2x is the log of 2^x reflected along the line y = x. It has a vertical asymptote at y = 0 as x can never be negative and it has a horizontal asymptote. The graph is an increasing function but increases at a decreasing rate. As x gets larger, the graph flattens out and the rate of change decreases.
+  The graph of log2x is the graph of 2^x reflected along the line y = x. It has a vertical asymptote at y = 0 as x can never be negative and it has a horizontal asymptote. The graph is an increasing function but increases at a decreasing rate. As x gets larger, the graph flattens out and the rate of change decreases. 
 
 ## recursive solution
 
 **0. The Problem**
 
-  Return the index of the first instance of a given value in an ordered list using binary search.
+  Given an ordered list of length n, return
+    - the index of a given value
+    - -2 if the given value is not in the list
   
 **1. State the recursive abstraction**
 
-  When asked to find the index of a given value, the recursive abstraction can find the given value in a list half the size of the previous list (in the first loop, the original list).
+  When I am asked to find the index of a given value or return -2 if the index is not in the list, the recursive abstraction can find the index of given value in an ordered list of length n/2 or that the value does not exist in the list.
   
 **2. Identify the parts of this solution that correspond to the six parts of a generalized recomparecursive solution.**
 
-  Problem: return the index of the first instance of a given value
+  Problem: return the index of a given value or -2 if the value does not exist in the list
   
   Decision between base cases and recursive cases:
+  
     Base Cases: 
     
     if (low > high) //base case 0
@@ -45,7 +48,7 @@ as of 2019-04-10 04:48
 
     
   Recursive Abstraction: 
-    Find the given value in a list half the size of the previous list (in the first loop, the original list).
+    Find the index of a given value in an ordered list of length n/2
     
   Solution(s) to recursive cases:
   
