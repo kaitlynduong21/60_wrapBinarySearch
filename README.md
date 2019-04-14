@@ -10,13 +10,13 @@ as of 2019-04-10 04:48
 
 ## recall inverse functions and logarithms
 
-**0. What is meant by y = log2x ?**
+**0. What is meant by count = log2x ?**
 
-  A log function is the inverse function of an exponential function. x is equal to the power that you raise 2 to in order to      get the value y.
+  A log function is the inverse function of an exponential function. x is equal to the power that you raise 2 to in order to      get the value count.
 
 **1. What does its graph look like?**
   
-  The graph of log2x is the graph of 2^x reflected along the line y = x. It has a vertical asymptote at y = 0 as x can never be negative and it has a horizontal asymptote. The graph is an increasing function but increases at a decreasing rate. As x gets larger, the graph flattens out and the rate of change decreases. 
+  The graph of log2x is the graph of 2^x reflected along the line y = x. It has a vertical asymptote at y = 0 as x can never be negative and it has a horizontal asymptote. The graph is an increasing function but increases at a decreasing rate. As x gets larger, the graph flattens out and the rate of change decreases. In the case of the problem, the graph is a set of points rather than a continuous curve because the number of elements in a list can only be integers, removing all the points where the x value is not an integer.
 
 ## recursive solution
 
